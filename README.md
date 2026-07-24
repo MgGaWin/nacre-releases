@@ -1,143 +1,59 @@
 <div align="center">
 
-<img src="assets/icon.png" width="200" alt="Simon Logo">
+<img src="assets/icon.png" width="112" alt="NACRE">
 
-# Simon 学习助手
+# NACRE
 
-**基于西蒙学习法的专注学习计时器 · 帮助你高效学习**
+面向 Windows 的本地深度工作工具
 
-[![Version](https://img.shields.io/github/v/release/MgGaWin/simon-releases?style=flat-square&label=Version&color=blue)](https://github.com/MgGaWin/simon-releases/releases)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078d4?style=flat-square&logo=windows)]()
-[![License](https://img.shields.io/github/license/MgGaWin/simon-releases?style=flat-square&color=green)](LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/MgGaWin/simon-releases/total?style=flat-square&color=orange)](https://github.com/MgGaWin/simon-releases/releases)
-[![Stars](https://img.shields.io/github/stars/MgGaWin/simon-releases?style=flat-square&color=yellow)]()
-
----
-
-[功能特性](#-功能特性) · [快速开始](#-快速开始) · [快捷键](#-快捷键) · [截图](#-截图) · [数据存储](#-数据存储) · [更新日志](#-更新日志) · [许可证](#-许可证)
+[下载 NACRE 2.0.0](https://github.com/MgGaWin/simon-releases/releases/tag/v2.0.0) ·
+[查看源码](https://github.com/MgGaWin/simon-source) ·
+[全部版本](https://github.com/MgGaWin/simon-releases/releases)
 
 </div>
 
-## ✨ 功能特性
+NACRE 帮助正在学习、写作、编程或设计的人看见自己的工作节奏。它只记录应用内部的计时、暂停、返回与任务数据，不拦截其他应用，也不监测外部活动。
 
-| 功能 | 说明 |
-|:---|:---|
-| 🍅 **番茄工作法** | 25分钟专注 + 5分钟休息，每3轮后30分钟长休息 |
-| 📝 **费曼笔记** | 每3轮番茄钟后弹出笔记窗口，用输出倒逼输入 |
-| 📅 **学习计划** | 按天规划任务，支持任务内容（链接、备注） |
-| 📊 **数据统计** | 连续天数、本周专注时长、完成率一览 |
-| 🗓️ **学习热力图** | GitHub 风格年度热力图，记录你的每一天 |
-| 🌐 **中英双语** | 支持中文/英文界面切换 |
-| 🔔 **系统托盘** | 最小化到托盘，不干扰工作 |
-| ⌨️ **全局快捷键** | 无需切换窗口，随时控制计时器 |
-| 📦 **免安装依赖** | 单文件 exe，下载即用，无需 Python 环境 |
-| 🔄 **自动更新** | 启动时检查新版本，一键下载更新 |
+## 主要能力
 
-## 🚀 快速开始
+- 25 分钟专注与 5 分钟休息，并提供 5 分钟、10 分钟启动专注。
+- 任务、项目与今日主线相互关联，任务状态可随时撤回和调整。
+- 在阶段检查点整理思绪，可处理、转为任务或忽略停泊内容。
+- 一日收束回顾今日投入、暂停、重新回来以及实际推进。
+- 每周节奏报告只解释规律，不排名，也不评分。
+- 安静房间、柔和雨声与棕色噪声可独立试听和调节音量。
+- 提醒可按任务类型关闭，允许跳过休息或延长当前阶段。
 
-### 下载安装
+## 下载与安装
 
-1. 前往 [Releases](https://github.com/MgGaWin/simon-releases/releases) 页面
-2. 下载最新版本的 `Simon学习助手_vX.X.X_Setup.exe`
-3. 运行安装程序，按提示完成安装
-4. 启动后自动最小化到系统托盘
+系统要求：Windows 10 / 11，64 位。
 
-> **系统要求：** Windows 10 / 11（64位），无需安装 Python 或其他依赖
+1. 打开 [NACRE 2.0.0 发布页](https://github.com/MgGaWin/simon-releases/releases/tag/v2.0.0)。
+2. 下载 `NACRE_v2.0.0_Setup.exe`。
+3. 运行安装程序并按提示完成安装。
 
-### 基本使用
+安装包的 SHA-256 校验值记录在 [SHA256SUMS.txt](SHA256SUMS.txt)。
 
-1. **启动应用** — 程序启动后最小化到系统托盘，双击图标打开主窗口
-2. **设置计划** — 在「学习计划」中添加每日任务（支持添加链接和备注）
-3. **开始专注** — 点击开始按钮或按 `Ctrl+Space`
-4. **查看任务** — 点击任务名称查看详情，支持复制内容
-5. **查看统计** — 在「统计」页面查看学习数据和热力图
+## 快速开始
 
-## ⌨️ 快捷键
+1. 在「今天」页写下可以直接开始的下一步，或建立完整任务。
+2. 选择 25 分钟专注；如果很难开始，先选择 5 分钟或 10 分钟启动。
+3. 暂停时可以留下缘由和继续线索，返回后不会被判定为失败。
+4. 在合适的时机使用「一日收束」，为下次工作留下清晰入口。
 
-| 快捷键 | 功能 |
-|:---|:---|
-| `Ctrl + Space` | 开始 / 暂停计时 |
-| `Ctrl + Shift + N` | 跳过当前阶段 |
-| `Ctrl + Shift + S` | 停止计时 |
-| `Ctrl + 1` ~ `Ctrl + 5` | 切换标签页 |
-| `Ctrl + W` | 隐藏到系统托盘 |
-| `Ctrl + Q` | 退出应用 |
+## 隐私
 
-## 📸 截图
+NACRE 的工作记录保存在本机。应用不会读取浏览器历史、窗口标题、键盘输入或其他软件的使用情况。联网仅用于用户主动触发的软件更新检查。
 
-> 欢迎提交 PR 添加截图！
+## 2.0.0 更新
 
-## 💾 数据存储
+- 完成 NACRE 品牌、图标与整套桌面界面重构。
+- 重建首页任务流程，统一快速记录、完整任务和返回空状态。
+- 加入项目容器、思绪停泊、一日收束与每周节奏报告。
+- 加入环境声场及试听、音量控制。
+- 优化专注、暂停、休息、结束与返回的状态一致性。
+- 修复环境音导致的退出问题及多处拥挤、遮挡和最小窗口布局问题。
 
-所有数据本地存储在 `data/` 目录下：
+## 许可
 
-| 文件 | 说明 |
-|:---|:---|
-| `plan.json` | 学习计划（按天存储任务，支持内容字段） |
-| `daily_log.json` | 每日学习记录（完成率、时长） |
-| `notes.json` | 费曼笔记 |
-| `settings.json` | 用户设置（时长、语言等） |
-
-> 💡 数据完全离线，无需联网，隐私安全有保障。
-
-## 🔧 自定义设置
-
-在 `settings.json` 中可调整：
-
-```json
-{
-  "focus_minutes": 25,
-  "short_break_minutes": 5,
-  "long_break_minutes": 30,
-  "daily_goal_hours": 4,
-  "sound_enabled": true,
-  "language": "zh"
-}
-```
-
-## 📋 更新日志
-
-### v1.2.0
-- 新增任务详情弹窗（点击任务名查看）
-- 新增任务内容字段（支持链接、备注）
-- 新增任务编辑功能
-- 新增自动更新检查
-- 新增设置页面检查更新按钮
-- 修复线程安全问题
-- 修复崩溃后无法启动问题
-- 优化首页添加任务样式
-
-### v1.1.0
-- 新增学习热力图年度视图
-- 新增中英双语支持
-- 优化系统托盘交互
-- 修复若干已知问题
-
-### v1.0.0
-- 首次发布
-- 番茄工作法计时器
-- 费曼笔记系统
-- 学习计划管理
-- 数据统计面板
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-1. Fork 本仓库
-2. 创建功能分支：`git checkout -b feature/amazing-feature`
-3. 提交更改：`git commit -m 'Add amazing feature'`
-4. 推送分支：`git push origin feature/amazing-feature`
-5. 提交 Pull Request
-
-## 📄 许可证
-
-本项目基于 [MIT License](LICENSE) 开源。
-
----
-
-<div align="center">
-
-**如果觉得有用，请给个 ⭐ Star 支持一下！**
-
-</div>
+源码与发布内容遵循 [MIT License](LICENSE)。
