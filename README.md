@@ -6,9 +6,9 @@
 
 面向 Windows 的本地深度工作工具
 
-[下载 NACRE 2.0.0](https://github.com/MgGaWin/simon-releases/releases/tag/v2.0.0) ·
-[查看源码](https://github.com/MgGaWin/simon-source) ·
-[全部版本](https://github.com/MgGaWin/simon-releases/releases)
+[下载 NACRE 2.0.0](https://github.com/MgGaWin/nacre-releases/releases/tag/v2.0.0) ·
+[查看源码](https://github.com/MgGaWin/nacre-source) ·
+[全部版本](https://github.com/MgGaWin/nacre-releases/releases)
 
 </div>
 
@@ -28,7 +28,7 @@ NACRE 帮助正在学习、写作、编程或设计的人看见自己的工作�
 
 系统要求：Windows 10 / 11，64 位。
 
-1. 打开 [NACRE 2.0.0 发布页](https://github.com/MgGaWin/simon-releases/releases/tag/v2.0.0)。
+1. 打开 [NACRE 2.0.0 发布页](https://github.com/MgGaWin/nacre-releases/releases/tag/v2.0.0)。
 2. 下载 `NACRE_v2.0.0_Setup.exe`。
 3. 运行安装程序并按提示完成安装。
 
